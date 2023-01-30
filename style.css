@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+	--white: hsl(0, 100%, 100%);
+	--soft-violet: hsl(273, 75%, 66%);
+	--soft-blue: hsl(240, 73%, 65%);
+	--very-dark-desaturated-blue: hsl(238, 29%, 16%);
+	--soft-red: hsl(14, 88%, 65%);
+	--light-grayish-blue: hsl(240, 5%, 91%);
+	--very-dark-grayish-blue: hsl(237, 12%, 33%);
+	--dark-grayish-blue: hsl(240, 6%, 50%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	min-height: 100vh;
+	font-size: 12px;
+	background-image: linear-gradient(0deg, var(--soft-blue), var(--soft-violet));
+}
+
+.principal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+	overflow: hidden;
+	background: var(--white);
+	height: 420px;
+	width: 750px;
+}
+
+.image_box {
+	margin-right: -77px;
+	overflow: hidden;
+	position: relative;
+	margin-top: 80px;
+}
+
+.image_box img {
+	width: 150px;
+}
+
+.illustration {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 250px;
+}
+
+.background {
+	background-image: url(images/bg-pattern-desktop.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vh;
+	height: 850px;
+	margin-bottom: 150px;
+	background-position: right top;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.images_illustration_woman_online {
+	margin-top: 150px;
+	margin-left: -5	0px;
+	width: 400px;
+}
+
+.FAQ {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	width: 500px;
+	height: 420px;
+	padding: 0px 80px 0px 150px;
+}
+
+.FAQ h1 {
+	font-size: 1.6rem;
+	font-weight: 700;
+	color: var(--very-dark-desaturated-blue);
+	margin-bottom: 20px;
+}
+
+.line {
+	height: 2px;
+	background: var(--light-grayish-blue);
+	width: 260px;
+	margin: 3px 0;
+	opacity: 0.5;
+}
+
+.question {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 9px 0;
+	width: 250px;
+}
+
+.question:hover {
+	color: var(--soft-red);
+	cursor: pointer;
+}
+
+question p {
+	font-size: 0.7rem;
+	color: var(--very-dark-desaturated-blue);
+}
+
+question img {
+	color: var(--soft-red);
+}
+
+.answer {
+	font-size: 0.6rem;
+	color: var(--dark-grayish-blue);
+	margin-bottom: 9px;
+}
+
+#answer_1 {
+	display: flex;
+	transition: 4s;
+}
