@@ -11,7 +11,7 @@
   <div class="image_box">
     <img src="images/illustration-box-desktop.svg">
   </div>
-  <div class="principal">
+  <main>
     <div class="illustration">
       <div class="background">
         <img src="images/illustration-woman-online-desktop.svg" class="images_illustration_woman_online">
@@ -19,45 +19,55 @@
     </div>
     <div class="FAQ">
       <h1>FAQ</h1>
-      <div class="question" id="question_1">
+
+      <div class="question" id="question_1" onclick="showHide('#answer_1', '#question_1', '#arrow_question_1')">
         <p>How many team members can I invite?</p>
-        <img src="images/icon-arrow-down.svg" id="arrow_question_1">
+        <img src="images/icon-arrow-down.svg" class="arrow ativo_arrow" id="arrow_question_1">
       </div>
-      <div class="answer" id="answer_1">
+      <div class="answer answer1" id="answer_1">
         You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.
       </div>
+
       <div class="line"></div>
-      <div class="question" id="question_2">
+
+      <div class="question" id="question_2" onclick="showHide('#answer_2', '#question_2', '#arrow_question_2')">
         <p>What is the maximum file upload size?</p>
-        <img src="images/icon-arrow-down.svg" id="arrow_question_2">
+        <img src="images/icon-arrow-down.svg" class="arrow ativo_arrow" id="arrow_question_2">
       </div>
-      <div class="answer" id="answer_2">
+      <div class="answer answer2" id="answer_2">
         No more than 2GB. All files in your account must fit your allotted storage space.
       </div>
+
       <div class="line"></div>
-      <div class="question" id="question_3">
+
+      <div class="question" id="question_3" onclick="showHide('#answer_3', '#question_3', '#arrow_question_3')">
         <p>How do I reset my password?</p>
-        <img src="images/icon-arrow-down.svg" id="arrow_question_3">
+        <img src="images/icon-arrow-down.svg" class="arrow ativo_arrow" id="arrow_question_3">
       </div>
-      <div class="answer" id="answer_3">
+      <div class="answer answer3" id="answer_3">
         Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.
       </div>
+
       <div class="line"></div>
-      <div class="question" id="question_4">
+
+      <div class="question" id="question_4" onclick="showHide('#answer_4', '#question_4', '#arrow_question_4')">
         <p>Can I cancel my subscription?</p>
-        <img src="images/icon-arrow-down.svg" id="arrow_question_4">
+        <img src="images/icon-arrow-down.svg" class="arrow ativo_arrow" id="arrow_question_4">
       </div>
-      <div class="answer" id="answer_4">  
+      <div class="answer answer4" id="answer_4">  
         Yes! Send us a message and we’ll process your request no questions asked.
       </div>
+
       <div class="line"></div>
-      <div class="question" id="question_5">
+
+      <div class="question" id="question_5" onclick="showHide('#answer_5', '#question_5', '#arrow_question_5')">
         <p>Do you provide additional support?</p>
-        <img src="images/icon-arrow-down.svg" id="arrow_question_5">
+        <img src="images/icon-arrow-down.svg" class="arrow ativo_arrow" id="arrow_question_5">
       </div>
-      <div class="answer" id="answer_5">
+      <div class="answer answer5" id="answer_5">
         Chat and email support is available 24/7. Phone lines are open during normal business hours.
       </div>
+
       <div class="line"></div>
     </div>
   </main>
